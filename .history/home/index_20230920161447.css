@@ -16,18 +16,13 @@
 }
 
 .home-page nav {
-  /* margin-bottom: 381px; */
+  margin-bottom: 381px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* position: fixed; */
-  top: 0;
-  /* width: 100%; */
-  width: 100%;
-  background-color: red;
 }
 
-.home-page nav .logo-box h1 {
+.home-page nav .head h1 {
   color: #fff;
   font-family: Laila;
   font-size: 24px;
@@ -36,7 +31,7 @@
   line-height: 102.5%;
 }
 
-.home-page nav .logo-box h2 {
+.home-page nav .head h2 {
   color: #fff;
   font-family: Laila;
   font-size: 32px;
@@ -45,17 +40,17 @@
   line-height: 102.5%;
 }
 
-.home-page nav ul {
-  display: flex;
+.home-page nav  ul {
+  display: inline-flex;
   justify-content: space-between;
   gap: 69px;
 }
 
-.home-page nav ul li {
+.home-page nav  ul li {
   list-style-type: none;
 }
 
-.home-page nav a {
+.home-page nav nav a {
   text-decoration: none;
   color: #fff;
   font-family: Open Sans;
@@ -65,7 +60,7 @@
   line-height: normal;
 }
 
-.home-page nav .img-box {
+.home-page nav div {
   display: flex;
   align-items: center;
 }
@@ -81,15 +76,13 @@
   height: 48px;
 }
 
-.home-page main {
+.home-page .text-container {
   display: flex;
   align-items: center;
   flex-direction: column;
-  min-height: 100vh;
-  justify-content: center;
 }
 
-.home-page main h3 {
+.home-page .text-container h3 {
   width: 779px;
   color: #fff;
   font-family: Open Sans;
@@ -100,7 +93,7 @@
   text-align: center;
 }
 
-.home-page main p {
+.home-page .text-container p {
   margin-top: 57px;
   width: 568px;
   color: #fff;
@@ -112,7 +105,7 @@
   line-height: normal;
 }
 
-.home-page main button {
+.home-page .text-container button {
   margin-top: 39px;
   width: 214px;
   height: 60px;
@@ -121,7 +114,7 @@
   border: none;
 }
 
-.home-page main button a {
+.home-page .text-container button a {
   text-decoration: none;
   color: #fff;
   text-align: center;
