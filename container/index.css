@@ -11,20 +11,20 @@
 }
 
 .container .home-page {
-  /* width: 100%; */
-  padding: 31px 145px 200px 136px;
   min-height: 100vh;
   background-image: url(https://images2.alphacoders.com/238/238870.jpg);
   background-size: 100% 100%;
   background-repeat: no-repeat;
-  /* background-attachment: fixed; */
 }
 
 .container .home-page nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* width: 100%; */
+  position: fixed;
+  width: 100%;
+  padding: 20px 70px;
+  background-color: black;
 }
 
 .container .home-page nav .logo-box h1 {
@@ -82,6 +82,7 @@
 }
 
 .container .home-page main {
+  padding: 89px 145px 200px 136px;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -182,7 +183,6 @@
 
 .container .our-service-page ul li p {
   margin-top: 19px;
-  /* width: 328px; */
   color: #000;
   font-family: Open Sans;
   font-size: 16px;
@@ -215,7 +215,7 @@
   width: 100%;
   min-height: 100vh;
   padding: 81px 167px 113px 170px;
-  background-image: url(../image/world_map_PNG28\ 1\ \(1\).svg);
+  background-image: url(../image/world_map_PNG28\ 1.svg);
   background-size: 100% 100%;
   background-repeat: no-repeat;
 }
@@ -298,4 +298,88 @@
 .container .rectangle-page ul li:last-child img {
   width: 35px;
   height: 35px;
+}
+
+/* popular-page */
+
+.container .popular-page {
+  width: 100%;
+  padding: 72px 159px 43px 0;
+  background: #fff;
+  min-height: 100vh;
+}
+
+.container .popular-page h1 {
+  color: #000;
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.container .popular-page .box-container {
+  margin-top: 63px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.container .popular-page .box-container .image-map {
+  width: 690px;
+  height: 772px;
+  /* background-color: #00a651; */
+  opacity: 0.6;
+  /* background: url(<path-to-image>), lightgray 50% / cover no-repeat; */
+}
+
+.container .popular-page .box-container ul {
+  width: 659px;
+}
+
+.container .popular-page .box-container ul li {
+  margin-top: 42px;
+  padding: 0 35px 0 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+  border-radius: 15px;
+  background: #fff;
+  box-shadow: 3px 3px 10px 0px rgba(0, 0, 0, 0.08);
+}
+
+.container .popular-page .box-container ul li .image-1 {
+  width: 223px;
+  height: 223px;
+  border-radius: 15px 0px 0px 15px;
+  background: url(<path-to-image>), lightgray 50% / cover no-repeat, #b77d7d;
+}
+
+.container .popular-page .box-container ul li h2 {
+  margin-left: 49px;
+  color: #000;
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.container .popular-page .box-container ul li p {
+  margin-left: 49px;
+  width: 93px;
+  color: #000;
+  font-family: Open Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.container .popular-page .box-container ul li .image-2 {
+  margin-left: 93px;
+  width: 33px;
+  height: 33px;
 }
